@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#chat {
+    background-color: #e3e7ea;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+    display: block;
+    margin: 20px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+::placeholder {
+  color: white;
+  /*opacity: 1; !* Firefox *!*/
+}
+
+
+#myh1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #0056b3;
+
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    width: 200px;
+    height: 50px;
+    background-color: #4299E1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#submit:hover {
+    background-color: #0056b3;
+}
